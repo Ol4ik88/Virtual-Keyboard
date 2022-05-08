@@ -1,1 +1,1 @@
-https://Ol4ik88.github.io/Virtual-Keyboard/virtual-keyboard/
+https://Ol4ik88.github.io/Virtual-Keyboard/
