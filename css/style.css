@@ -70,10 +70,10 @@ box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
   cursor: pointer; 
   user-select: none;
  
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, border-radius 0.3s;
 } 
 
-.keyboard__key[data-code="Backspace"], .keyboard__key[data-code="CapsLock"], .keyboard__key[data-code="Enter"], .keyboard__key[data-code="ShiftLeft"], .keyboard__key[data-code="ShiftRight"]{
+.keyboard__key[data-code="Backspace"], .keyboard__key[data-code="CapsLock"], .keyboard__key[data-code="Enter"], .keyboard__key[data-code="ShiftLeft"], .keyboard__key[data-code="ShiftRight"], .keyboard__key[data-code="ControlLeft"]{
   width: 110px;
   font-size: 1.4rem;
 }
@@ -89,4 +89,5 @@ box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
   -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
 -moz-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
 box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+border-radius: 10px;
  }
