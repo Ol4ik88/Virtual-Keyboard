@@ -47,6 +47,21 @@ export default class Keyboard {
     this.keyboard.onmouseup = this.mouseEvent;
   }
 
+  mouseEvent = (ev) => {
+    ev.stopPropagation();
+    const key = ev.target.closest('.keyboard__key');
+    if (!key) return;
+    const { code } = key.dataset;
+    key.addEventListener('mouseleave', this.stopSticking);
+    this.clickHandler({ code, type: ev.type });
+  };
+
+  stopSticking = ({ target: { dataset: { code } } }) => {
+    const keyObj = this.keyButtons.find((key) => key.code === code);
+    keyObj.container.classList.remove('active');
+    keyObj.container.removeEventListener('mouseleave', this.stopSticking);
+  };
+
   clickHandler = (ev) => {
     if (ev.stopPropagation) ev.stopPropagation();
     const { code, type } = ev;
