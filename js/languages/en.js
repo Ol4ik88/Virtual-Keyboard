@@ -200,7 +200,7 @@ export default [
     code: 'Semicolon',
   },
   {
-    normal: '&acute;',
+    normal: '′',
     shift: '"',
     code: 'Quote',
   },
@@ -285,8 +285,8 @@ export default [
     code: 'AltLeft',
   },
   {
-    normal: '',
-    shift: null,
+    normal: ' ',
+    shift: ' ',
     code: 'Space',
   },
   {

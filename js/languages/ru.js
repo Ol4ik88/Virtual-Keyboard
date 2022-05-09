@@ -1,7 +1,7 @@
 export default [
   {
     normal: 'ё',
-    shift: '',
+    shift: 'Ё',
     code: 'Backquote',
   },
   {
@@ -285,8 +285,8 @@ export default [
     code: 'AltLeft',
   },
   {
-    normal: '',
-    shift: null,
+    normal: ' ',
+    shift: ' ',
     code: 'Space',
   },
   {
