@@ -280,11 +280,6 @@ export default [
     code: 'ControlLeft',
   },
   {
-    normal: 'Win',
-    shift: null,
-    code: 'Win',
-  },
-  {
     normal: 'Alt',
     shift: null,
     code: 'AltLeft',
