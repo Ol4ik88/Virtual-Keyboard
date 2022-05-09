@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import { get } from './storage.js';
 import Keyboard from './keyboard.js';
 
